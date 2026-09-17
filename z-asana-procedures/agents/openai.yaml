@@ -1,0 +1,4 @@
+interface:
+  default_prompt: "Use $z-asana-procedures for the requested ZedBiz workflow."
+  display_name: "Z Asana Procedures"
+  short_description: "Help with Z Asana Procedures tasks"

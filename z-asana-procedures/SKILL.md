@@ -31,7 +31,7 @@ Load only the reference needed for the request. Use installed procedures for rou
 ## Confirm the request and route
 
 - Read the complete request and its actual source files. Extract intended outcome, scope, destination, deliverables, roles, reviewer, timing, links, preservation requirements, and approval limits.
-- Verify the agent identity, workspace, approved PAT-backed MCP route, and required capabilities. Resolve exact object and user IDs from live records. Never use a personal connector or guessed IDs.
+- Select the acting authority through `z-asana-agent-control`. Verify the acting identity, workspace and required tools: agent-owned work uses that agent's PAT-backed MCP; a direct user-authorized ChatGPT/Codex request uses its verified native connector. Never substitute a personal connector for agent-owned work or guess IDs.
 - Search likely existing projects and tasks. Reuse the existing record for the same outcome; link related but distinct work. Preserve useful task IDs, comments, and proof during repairs.
 - In Diagnose mode, inspect and propose without writing. In Get-er-Done mode, execute the authorized scope. Existing authorization counts; ask only for an actually missing decision.
 - A routine request does not authorize deletion, broad membership changes, shared-field changes, bulk rescheduling, or unrelated project redesign. Follow the advanced control skill for these boundaries.
