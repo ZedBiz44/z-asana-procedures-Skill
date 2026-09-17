@@ -14,6 +14,8 @@ The worker checks the output first and provides the exact editable source/versio
 
 The reviewer accepts or requests specific corrections, naming the affected location and expected change. Record approval against the version actually reviewed. A handoff names the next person, their action, source location, restrictions, and completion requirement. “See Drive” is insufficient.
 
+Avoid a review dependency cycle. If the main task includes accepted delivery, keep it open during review. A production/handoff subtask can finish when the reviewable output exists; the review subtask depends on that handoff, not on the main task being complete. Corrections and retesting follow review, and the main task finishes last. A separate production task may finish before review only when its explicitly agreed deliverable is the draft/handoff itself, not accepted final delivery.
+
 ## Match evidence to the promised result
 
 - Research: finished recommendation, sources, reasoning, uncertainty, and requested decision.

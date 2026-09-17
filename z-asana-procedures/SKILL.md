@@ -1,6 +1,6 @@
 ---
 name: z-asana-procedures
-description: Create, repair, organize, assign, review, and complete routine Asana projects, tasks, and subtasks using ZedBiz procedures.
+description: Use for routine Asana project, task, and subtask setup, repair, assignment, review, and completion; not venture implementation masters.
 ---
 
 # Zed Asana Procedures
@@ -9,7 +9,7 @@ description: Create, repair, organize, assign, review, and complete routine Asan
 
 Use for routine Asana project setup, task and subtask creation, sections, descriptions, template use, assignment, and delivery checks. Produce understandable work that is complete before its first assignment notification.
 
-Do not use for unrelated business execution, general writing without an Asana assignment, or designing a venture implementation master. Use the separately maintained venture procedure for that specialized work. Its templates do not override the assign-last rule when releasing routine work.
+Do not use for unrelated business execution, general writing without an Asana assignment, or designing a venture implementation master. For routine setup, select this skill rather than the venture template skill. Use the separately maintained venture procedure only when the request is actually about a venture implementation master. Its templates do not override the assign-last rule when releasing routine work.
 
 This skill defines work quality and sequence. It does not supply an Asana connection, grant permissions, or replace the existing `z-asana-agent-control` and `z-advanced-asana-control` skills. Apply the appropriate access/authority skill before Asana calls. Use `z-agent-communication` for human-facing descriptions and messages.
 
@@ -75,7 +75,7 @@ This is an instruction-level release gate. It is not a server-side permission lo
 
 ## Work, review, and complete
 
-Follow the delivery reference. Keep the current brief in the description and decisions in comments. Keep the main task with its delivery owner while a reviewer checks the output. Complete required subtasks and acceptance checks before completing the main task.
+Follow the delivery reference. Keep the current brief in the description and decisions in comments. Keep the main task with its delivery owner while a reviewer checks the output. Complete required subtasks and acceptance checks before completing the main task. Never make review depend on completing the main task if that main task itself requires review approval. Use a completed draft/handoff subtask as the review prerequisite, then review, corrections/retest, and final acceptance before main-task completion.
 
 Respect the promised result: a test task that asks to run a test and record results can finish with documented failures and owned corrections; a task promising a working result cannot finish merely because the failures were recorded. Passing acceptance or an explicitly approved exception is required for release.
 
