@@ -13,6 +13,21 @@ Replace bracketed input fields before release. These are writing formats, not li
 - Working method: [section pattern, stage source, useful views, update cadence].
 - Resources: [approved brief, SOP, working folder, technical record].
 - Acceptance and handover: [checks, decision-maker, ongoing owner].
+- Continuation: [complete the operating block below for projects and queues].
+
+## Project continuation block
+
+- Whole-project owner: [person accountable for every required outcome]. Coordinator: [person keeping the queue moving].
+- Work list and next-item rule: [exact list/source, working order, when to start the next independent item].
+- Review handoff: [reviewer, actual approved delivery route, coordinator, and proof the recipient can receive and act].
+- Local stop: [specific item/action to hold, reason, decision-maker, and what continues].
+- Whole-project stop: [conditions that make all remaining work unsafe or unauthorized].
+- Reporting outage: [durable pending-report location, responsible person, approved fallback, retry limit, and reconciliation check].
+- Progress checkpoint: [durable location, current item, completed steps, proof, pending writes, next action, remaining queue].
+- Interrupted run: [who detects it, agreed event/cadence, verified authorized resume route, duplicate-run check, retry/escalation owner].
+- Whole-project done when: [all required items accepted, reports reconciled, exceptions decided, handover complete].
+
+Verify these arrangements before release. Do not fill them with untested “will monitor” promises or inaccessible server links.
 
 ## Main-task description
 
@@ -23,6 +38,8 @@ Replace bracketed input fields before release. These are writing formats, not li
 - Please complete: [required actions or phases, matching relevant subtask sections].
 - Inputs and limits: [approved sources, constraints, work to preserve].
 - Timing and wait conditions: [handoffs, prerequisites, approval owner].
+- After submission: [next authorized item or genuine prerequisite; do not wait merely for independent review].
+- If this item/report is blocked: [what to preserve, affected action to hold, what continues, coordinator and fallback location].
 - Done when: [observable checks and required acceptance].
 - Return: [exact file/link/check result and where to post it].
 
@@ -53,6 +70,7 @@ Using [source], produce [specific result] for [main outcome]. Follow [requiremen
 - Checked: [specific checks and proof].
 - Accepted: [reviewer/decision where required].
 - Remaining: [none, or agreed exception and owned follow-up].
+- Queue status: [accepted, awaiting review, pending submission, held, and not started; when this is multi-item work].
 - Next owner/action: [handover if needed].
 
 For setup-only work, report “Ready and assigned” or “Prepared but not released,” not “Business work complete.”

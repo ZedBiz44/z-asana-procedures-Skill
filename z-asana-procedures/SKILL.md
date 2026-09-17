@@ -21,6 +21,7 @@ This skill defines work quality and sequence. It does not supply an Asana connec
 - [Tasks and subtasks](references/tasks.md): descriptions, useful breakdowns, real subtask sections, ownership, and visibility.
 - [Fields, rules, and templates](references/workflow.md): reuse, dates, dependencies, fields, rules, forms, and recurrence.
 - [Review and completion](references/delivery.md): daily work, handoff, evidence, and completion.
+- [Whole-project continuation](references/continuation.md): mandatory setup for queues, partial blockers, reporting failures, review handoffs, and interrupted runs.
 - [Brief formats](assets/briefs.md): reusable project, task, subtask, review, and finish formats.
 - [OpenClaw operation](references/openclaw.md): dependencies, discovery, approved tools, and read-back.
 - [Source map](references/sources.md): guide coverage and official feature documentation.
@@ -45,6 +46,8 @@ Load only the reference needed for the request. Use installed procedures for rou
 
 ## Build unassigned
 
+For multi-task projects or queues, first read the whole-project continuation reference and build its operating instructions into the project brief and affected task descriptions. A complete structure includes how the work continues, not only what each task contains.
+
 - Build the project brief, sections, main tasks, and all required subtasks with delivery assignees unset. This also applies to simple new tasks and new subtasks added to existing work.
 - Fill descriptions, working/source links, output destinations, completion requirements, relevant dates, dependencies, and review gates before release. Put deliverable links near the top.
 - Use real project sections and real subtask sections. If the approved tool cannot create a required native divider, report the precise capability gap; do not invent a heading task or extra nesting as a substitute.
@@ -62,6 +65,7 @@ Read the actual Asana objects back before the first assignment. A successful too
 - Verify dates, genuine dependencies, relevant fields, intended workers/reviewers, and what must wait. Do not assume subtasks inherit assignees or all project properties.
 - Confirm no unresolved input placeholders, missing required subtasks, or auto-assignment path remains. Final result links may be marked pending because producing them is the work.
 - Check the whole assignment or self-contained release batch together. Do not assign a main task while still inventing its required breakdown.
+- For a project or queue, verify the whole-project owner, coordinator, worker, reviewer, next-task rule, item-versus-project stop conditions, pending-report location, checkpoint location, and interruption/review handoff route. Identify who detects a stopped run, when they check, and who actually resumes it through an existing authorized route. Check that the named recipient can receive and act; an assigned task or an untested promise to monitor is not proof. Missing continuation arrangements are setup defects: report the exact gap and do not declare the project ready.
 
 ## Assign last and verify release
 
@@ -77,12 +81,14 @@ This is an instruction-level release gate. It is not a server-side permission lo
 
 Follow the delivery reference. Keep the current brief in the description and decisions in comments. Keep the main task with its delivery owner while a reviewer checks the output. Complete required subtasks and acceptance checks before completing the main task. Never make review depend on completing the main task if that main task itself requires review approval. Use a completed draft/handoff subtask as the review prerequisite, then review, corrections/retest, and final acceptance before main-task completion.
 
+Execute the agreed next-task rule without waiting for another prompt after each item. A submitted item can await review while the worker starts the next independent authorized item. A reporting failure is not automatically a work failure. Preserve the unsent report, hold only the affected action, and continue safe work from the verified work list as the continuation reference directs. Never describe one completed item as completion of the whole assigned queue.
+
 Respect the promised result: a test task that asks to run a test and record results can finish with documented failures and owned corrections; a task promising a working result cannot finish merely because the failures were recorded. Passing acceptance or an explicitly approved exception is required for release.
 
 ## Fail safely and report
 
 - After an ambiguous write, read the current object before retrying. Do not duplicate tasks or repeat assignments because the response was lost.
-- Stop after three failed attempts, or immediately for identity, authorization, permission, or materially expanded scope problems. State what exists, what remains, and the exact decision/tool needed.
+- Stop retrying the affected operation after three failed attempts, or immediately for identity, authorization, permission, or materially expanded scope problems. Assess the scope of the failure: stop the whole project only if no remaining work is safe, authorized, and sufficiently known, or an explicit global stop applies. Otherwise preserve the failure and continue independent work. State what exists, what remains, and the exact decision/tool needed.
 - Preserve the last usable state. Do not delete partial setup, rewrite unrelated work, or reopen completed business work merely to repair logging.
 - Return exact project/task links, changes made, checks performed, assignment status, and remaining exceptions. Say whether work is ready, partially prepared, or blocked.
 - Store task decisions and proof in Asana. Follow the existing agent-control skill's activity-memory requirements. Record technical changes in GitHub and significant operational activity in the Technical Journal. Use Mountain Time for timed commitments.

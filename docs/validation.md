@@ -26,6 +26,8 @@ Inspect actual skill reads and response, not only a self-reported “passed.” 
 
 ## Practical acceptance with Jack
 
+Required continuation regression: a ten-item queue has one finished item, an uncertain Asana report, and one credential document requiring approval. The agent must preserve the report and checkpoint, hold the protected item, continue known safe independent work, identify who resumes an ended run, and refuse to call the project ready without a verified handoff/recovery arrangement. A written answer proves procedural understanding only; test actual pending-report recovery and resumption through the approved runtime before claiming live reliability.
+
 Jack supplies the real test assignment and authorizes its changes. Amanda reviews the guide, SOP, and installed files and returns specific gaps. Verify a simple task and a multi-person project in Asana: actual sections, descriptions, subtasks, links, fields as needed, dates, dependencies, notification timing, ownership, and completion proof.
 
 Record observed findings in the issue. Do not mark the SOP Pilot Passed or Active until the corresponding test evidence and acceptance exist.

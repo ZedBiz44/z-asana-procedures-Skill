@@ -6,7 +6,7 @@ Open the actual task, main-task context, relevant subtasks, and recent decisions
 
 Post useful progress when a result is ready, a decision is needed, or a date changes. Follow the existing agent-control activity recording requirements without repetitive status chatter. Keep the current brief in the description; keep decisions and discussion in comments.
 
-For blocked work, state what is blocked, what was checked, who can resolve it, exact missing input, timing impact, what can continue, and next check date. Use the existing waiting indicator where applicable. Never hide the problem by completing the task.
+For blocked work, state what is blocked, what was checked, who can resolve it, exact missing input, timing impact, what can continue, and next check date. Use the existing waiting indicator where applicable. Never hide the problem by completing the task. Apply the project's continuation instructions: a held document or unsent Asana report does not stop an otherwise safe authorized queue. Use the whole-project continuation reference for pending reports, reconciliation, checkpoints, and coordinator recovery.
 
 ## Review and handoff
 

@@ -17,6 +17,7 @@ The local references are the skill's concise execution instructions derived from
 | Tasks, descriptions, subtasks, native dividers, visibility | tasks.md |
 | Fields, rules, forms, dates, templates, recurrence | workflow.md |
 | Assignments and notifications, readiness checks | Core skill |
+| Whole-project ownership, continuation, reporting outages, interrupted runs | continuation.md and brief operating block |
 | Daily work, review, completion | delivery.md |
 | Access and AI agents | Core skill, openclaw.md, existing access controls |
 | Portfolios, goals, common workflow examples | Main guide; delivery.md gives routing |

@@ -4,7 +4,7 @@
 
 Search the intended team and existing work first. Keep a small repair in its existing support project. Create a new project when several deliverables, stakeholders, or schedules need their own coordination, or when an ongoing queue needs a shared home. Confirm the team, project owner, purpose, scope, privacy, contributors, and acceptance authority.
 
-The coordinator builds structure; the project owner owns the outcome. Do not make the coordinator the default owner of every task.
+The coordinator builds structure and keeps the queue moving; the project owner owns the whole outcome. Do not make the coordinator the default owner of every task. A project is not ready merely because its tasks exist: complete and verify the continuation block in the brief assets, including the next-item rule, local/global stop conditions, reporting fallback, review delivery, and interrupted-run responsibility.
 
 Use an approved template when suitable. Inspect its saved assignees and automation before making a copy. A reusable master is not an active delivery project. Preserve live work when repairing; do not move or delete unrelated records without authority.
 
