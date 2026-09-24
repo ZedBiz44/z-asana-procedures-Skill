@@ -36,7 +36,7 @@ Use installed procedures for routine cases. Consult the relevant part of the [ma
 - Include production, review, corrections, delivery, and proof where needed. Normally use main tasks plus one level of actionable subtasks.
 - Plan intended owners without assigning them yet. A VA section is organization, not an assignee. Children do not inherit their main task's assignee.
 - Establish working order, including real prerequisites. Dates and dependencies do not establish visible list order.
-- Confirm the approved tools can create any required native subtask dividers and set ordering before repeating a structure. Never use ordinary tasks or extra nesting as fake headings. Report a missing capability and hold the affected setup.
+- Confirm the approved tools can create any required native subtask dividers and set ordering before repeating a structure. Never use ordinary tasks or extra nesting as fake headings. Report a missing capability and hold the affected setup. Do not silently remove a required divider or redesign away a requirement to pass the check; obtain the user's decision on an alternative.
 
 ## Build one complete example, then repeat
 
@@ -70,6 +70,8 @@ If a required check fails, correct it or report **Prepared but not released** wi
 ## Work, review, and finish
 
 Follow the delivery reference. Keep the current brief in the description and decisions in comments. Keep the main task with its delivery owner during review. Use a draft/handoff subtask as the review prerequisite; do not make review depend on completion of the main task that itself needs approval.
+
+When review may request changes, the initial review step finishes when the reviewer posts acceptance or specific corrections. Corrections follow that response; final acceptance follows any corrections. Never make corrections wait for a task whose own finish condition is final approval.
 
 Continue the next independent authorized item while another awaits review. Hold only the affected work when a local problem or reporting failure occurs, as the continuation reference directs. Finishing one item does not complete a queue.
 
