@@ -32,7 +32,7 @@ Use installed procedures for routine cases. Consult the relevant part of the [ma
 
 - Use a project for several independently managed results, a main task for one result, and a subtask for one independently finishable result or meaningful work step with an observable done condition.
 - Split outputs when different inputs, owners, timing, reviews, or proof need separate tracking. Keep tiny same-owner checks together. Do not impose a fixed task count or turn every click into a subtask.
-- Start each actionable task and subtask title with a verb. Do not add number prefixes. Native section headings are exempt.
+- Start each actionable task and subtask title with a verb. Do not add number prefixes. Present draft task lists as bullets, not numbered lists, so numbering is not copied into Asana. Native section headings are exempt from the verb rule.
 - Include production, review, corrections, delivery, and proof where needed. Normally use main tasks plus one level of actionable subtasks.
 - Plan intended owners without assigning them yet. A VA section is organization, not an assignee. Children do not inherit their main task's assignee.
 - Establish working order, including real prerequisites. Dates and dependencies do not establish visible list order.
