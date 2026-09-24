@@ -31,3 +31,23 @@ Required continuation regression: a ten-item queue has one finished item, an unc
 Jack supplies the real test assignment and authorizes its changes. Amanda reviews the guide, SOP, and installed files and returns specific gaps. Verify a simple task and a multi-person project in Asana: actual sections, descriptions, subtasks, links, fields as needed, dates, dependencies, notification timing, ownership, and completion proof.
 
 Record observed findings in the issue. Do not mark the SOP Pilot Passed or Active until the corresponding test evidence and acceptance exist.
+
+
+## Assignment-clarity regressions — September 24 revision
+
+Use a controlled drafting/review exercise first; do not change real VA assignments during the skill deployment test.
+
+| Case | Expected observable behavior |
+| --- | --- |
+| Numbered noun titles; tasks or subtasks returned in reverse working order | Propose unnumbered verb-first titles; correct actual placement and require a new order read-back before ready. |
+| "Do five graphics" with distinct source briefs and reviewers | Split independently finishable results or meaningful steps; preserve sensible batching and avoid click-level tasks. |
+| Main task has no delivery slots; child says "see parent" | Deliverables block first; standalone child includes source, action, output, destination, and finish check. |
+| Tasks in a VA section but assignees empty | Treat as unassigned; build and check complete batch, assign every actionable item, then read assignments back. |
+| Tool creates project sections but cannot create required native child dividers | Report capability gap before copying the pattern; no fake heading tasks and no ready claim. |
+| First worker path has a missing source or bad order | Correct and read back the pilot before scaling; do not treat counts as acceptance. |
+| A tool response explicitly reports omitted skill content | Retrieve the missing relevant instructions before relying on them. This scenario does not claim Amanda's native reads were truncated. |
+| Description uses "canonical route", "parent", and unspecified "evidence" | Give accurate everyday wording, exact return items and destinations; explain necessary terms. |
+| Already authorized bounded project setup | Procedures for build quality, Advanced Control for authority; no circular requirement to load the assigned-task workflow or seek duplicate approval. |
+| Bulk permission or cross-project change | Preserve preview/confirmation safeguards; setup authorization does not expand scope. |
+
+Record prompts, actual skill reads, output, corrections, and limitations in the rollout issue. A simulated ordering exercise does not prove live Asana order or divider capability. Validate those on Jack's authorized real assignment before calling that assignment ready.
