@@ -1,42 +1,28 @@
-# Daily work, review, and completion
+# Define delivery, review, and completion
 
-## Begin and communicate
+Use this reference when creating or repairing tasks. Workers use `z-asana-agent-control` to execute and complete the assignment; they do not need to load this setup reference for ordinary work.
 
-Open the actual task, main-task context, relevant subtasks, and recent decisions. Confirm access, scope, dates, authority, and next action. A notification points to work; it is not a complete brief or extra permission. Repeated notifications must not restart finished work or create duplicates.
+## Make the finish condition observable
 
-Post useful progress when a result is ready, a decision is needed, or a date changes. Follow the existing agent-control activity recording requirements without repetitive status chatter. Keep the current brief in the description; keep decisions and discussion in comments.
+- Name the exact output, format, destination, required proof, reviewer, and approval needed. Provide source and destination links before assignment.
+- Give each subtask its own observable result. Define the main assignment's full result separately so one finished step cannot be mistaken for the whole delivery.
+- State which agent owns the main assignment and which action subtasks it must work through. Mark work owned by other people and genuine wait conditions clearly. Put the next-step instruction in each item that can arrive as a separate notification.
+- Keep the current instructions in the description and decisions in comments. Provide slots for working files, final output, and proof where useful.
 
-For blocked work, state what is blocked, what was checked, who can resolve it, exact missing input, timing impact, what can continue, and next check date. Use the existing waiting indicator where applicable. Never hide the problem by completing the task. Apply the project's continuation instructions: a held document or unsent Asana report does not stop an otherwise safe authorized queue. Use the whole-project continuation reference for pending reports, reconciliation, checkpoints, and coordinator recovery.
+## Set up review without a dependency cycle
 
-## Review and handoff
+- Keep the main task with its delivery owner. Prepare any review task fully before assigning it.
+- Make review depend on the saved draft or handoff, not on completing a main task that requires that review.
+- Define an initial review as a response: acceptance or specific requested corrections. Corrections can then proceed, followed by final acceptance. Do not make corrections depend on final approval.
+- Name the reviewer, exact version to review, checks, and place to return the decision. Specify what the worker may continue while waiting and what must wait for approval.
 
-The worker checks the output first and provides the exact editable source/version, required proof, reviewer, and requested decision. Prepare a separate review task completely before assigning it. The main task remains with its delivery owner.
+## Match the checks to the promised result
 
-The reviewer accepts or requests specific corrections, naming the affected location and expected change. Record approval against the version actually reviewed. A handoff names the next person, their action, source location, restrictions, and completion requirement. “See Drive” is insufficient.
+- Research needs a recommendation, sources, uncertainty, and the requested decision.
+- Content and design need editable files, required versions, checks, and exports. Require publication proof only if publishing is authorized.
+- Websites and technical work need checks of the actual result, including the relevant customer paths or behavior.
+- Administration needs the saved record or file and a check that the requested changes are present.
 
-Avoid a review dependency cycle. If the main task includes accepted delivery, keep it open during review. A production/handoff subtask can finish when the reviewable output exists; the review subtask depends on that handoff, not on the main task being complete. Corrections and retesting follow review, and the main task finishes last. A separate production task may finish before review only when its explicitly agreed deliverable is the draft/handoff itself, not accepted final delivery.
+A task to run and record a test can finish with documented failures and owned corrections. A task promising a working result needs passing checks or an expressly approved exception. Moving unfinished required work into a follow-up does not change the original promise without approval.
 
-## Match evidence to the promised result
-
-- Research: finished recommendation, sources, reasoning, uncertainty, and requested decision.
-- Content: editable source, required versions, fact/brand checks, and publication proof only if publishing was authorized.
-- Design/media: editable source, required exports, specifications, relevant rights checks, and review.
-- Website/funnel: correct preview or live URL, relevant desktop/mobile and form/link/routing checks, and any required recovery reference.
-- Technical work: technical record, exact change, meaningful tests, required live checks, and limitations.
-- Administration: updated record/file, reconciliation checks, and exceptions.
-
-Check the real deliverable. A tool success message or editor screenshot does not prove the customer-facing result works.
-
-## Finish in the right order
-
-Complete each subtask when its own promised result exists and its checks pass. Read required subtasks before completing the main task. Check final outputs, acceptance, approval, handover, and any deliberately approved exception. Fill the pending result links and post a finish comment before completing the main task.
-
-Recording a failed test may complete a task whose sole deliverable is running and recording that test. It does not complete a task promising a working system. Give corrections explicit ownership and require passing retest evidence or an approved exception before release.
-
-Moving unfinished required work to a follow-up does not meet the original scope without acceptance of the scope change. Distinguish cancellation from success. Reopen failed acceptance where authorized and explain downstream impact.
-
-## Reporting, portfolios, and goals
-
-Follow the project brief's review cadence. Keep project health supported by evidence. Portfolio and goal administration follow advanced authority controls, not an automatic extension of task setup. For guidance, use the main guide's Portfolios and goals section.
-
-Business outcomes need baseline, target, measurement source, owner, and review date. Completed tasks are delivery measures, not proof of sales or leads. Preserve approved video/content cycles; do not turn every routine content assignment into its own project. Use later dated performance-review work where appropriate.
+Set the main task's finish condition to require all necessary subtasks, saved outputs, checks, approvals, and handover. Setup is complete when the assignment is ready and properly released; business delivery is a separate result.

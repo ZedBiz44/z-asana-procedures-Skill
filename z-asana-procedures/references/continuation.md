@@ -2,7 +2,7 @@
 
 ## Put the operating instructions where workers use them
 
-The project creator must fill these into the project brief before release. Put each task's next action, local stop rule, reporting fallback, and handoff in that task too; a link to this reference alone is insufficient. Use the continuation block in the brief assets.
+The creator must fill these into the main assignment or project brief before release. Put each task's next action, local stop rule, reporting fallback, and handoff in that task too; a link to this reference alone is insufficient. Use the continuation block in the brief assets.
 
 - Name the owner accountable for the entire result, coordinator responsible for keeping work moving, workers, reviewers, and decision-maker. One person may hold more than one role, but do not leave the responsibility implied.
 - Define the complete work list, committed scope, working order or priority rule, and what counts as whole-project acceptance. Preserve already accepted areas.
@@ -14,30 +14,12 @@ The project creator must fill these into the project brief before release. Put e
 
 These are project setup requirements. Do not release an unattended queue on the assumption that writing “continue” creates a running service. Do not install new schedules, services, or credentials without authority; report the concrete missing arrangement and prepare everything else.
 
-## Continue after submission or a local blocker
+## Check the assignment boundary
 
-Complete the item's work and self-check, preserve its proof, and submit it for the agreed review. Unless the next item truly depends on acceptance, proceed to the next authorized ready item without requesting another general go-ahead.
+Identify the worker-owned main assignment and its required action subtasks. Make separate ownership and review steps clear. A subtask notification must give enough context to find the main assignment and continue the authorized work. Workers use `z-asana-agent-control` for execution, reporting failures, and interrupted runs.
 
-If one document requires a protected action, leave it unchanged, record that exception without secrets, and continue independent work. A question about credential reset, payment, deletion, or document replacement does not automatically suspend unrelated authorized work. Keep the affected task's acceptance honest: remaining required work needs an approved exception or later completion.
+## Verify the arrangements before release
 
-Stop all work only when the problem affects every remaining item, the safe scope or ownership cannot be determined, access/identity is invalid for the required system, continuing risks repeating damage, or an explicit project-wide stop applies. State that reason rather than using “blocked” for the entire project by default.
+Check three cases against the actual instructions: one step needs approval; Asana cannot confirm a report; the worker is interrupted between steps. In each case, the instructions must identify what is saved, what work can continue, who acts next, and how that person receives the work. Check the existing handoff or recovery route separately; written instructions alone do not prove it works.
 
-## If Asana reporting fails
-
-- Save the intended report and checkpoint in the pre-agreed durable location before risking loss. Include a stable report reference, task/project IDs, timestamp and timezone, exact completed result, proof links, remaining work, and intended status. Keep secrets out.
-- An unanswered write is uncertain, not proven failed. Check the task's current comments/status for the report reference before retrying. Make at most three attempts at the affected operation unless a lower limit applies.
-- If Asana remains unavailable, mark submission unconfirmed in the checkpoint. Notify the coordinator through the approved fallback if available. Do not claim the report was posted or the review started.
-- Continue the next independent item only if its instructions, authorization, ownership, and prerequisites are already known from the verified work list and there is no risk of another worker duplicating it. If those facts are uncertain, pause that item and use the agreed coordinator handoff. Never guess changes that may have occurred during the outage.
-- The worker or named coordinator reconciles pending reports when access returns. Check for an existing report first, post only missing content, verify status, and mark the pending record reconciled. A posting retry must never rerun completed file work.
-
-## Preserve progress across runs
-
-After a meaningful work unit, before a handoff, and before a planned run end, save the current item, completed steps, output/proof locations, pending writes, exact next action, blocked items, and work still queued. Unexpected termination may occur before a final save, so do not wait until the end to checkpoint.
-
-The coordinator checks the agreed signal/cadence. If the worker stopped with authorized work remaining, confirm there is no active competing run, inspect the checkpoint and actual state, and resume through the approved route. Recovery follows the recorded retry limit and escalates persistent faults once with a clear owner and decision. Do not launch endless restarts or promise a future wake without a real arrangement.
-
-## Verify project readiness and completion
-
-Before assignment, walk through three cases against the actual instructions: one item needs approval; Asana cannot confirm a report; the worker's run ends between items. For each case the worker must be able to identify what to preserve, what continues, who acts next, and how that person receives the work. Record evidence for the real handoff/resume arrangement separately from a written scenario walkthrough.
-
-At closeout, reconcile the complete list: accepted items, items awaiting review, pending reports, held exceptions, and untouched items. A worker finishing one folder is partial progress. Close the project only when the full approved outcome is accepted, required reports are reconciled, and remaining exceptions have an explicit decision and owner.
+Use existing approved reporting and recovery arrangements. Do not impose work deadlines, timed restarts, or new schedules. Missing arrangements are setup gaps to report, not permission to create new services. Define whole-assignment completion so untouched work, pending reports, and required reviews cannot be hidden by one completed subtask.

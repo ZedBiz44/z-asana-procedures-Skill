@@ -1,11 +1,13 @@
 ---
 name: z-asana-procedures
-description: Set up, repair, assign, and review routine Asana projects, tasks, and subtasks; not venture implementation masters.
+description: Create, repair, and prepare routine Asana tasks, subtasks, and projects for assignment, including review and completion requirements. Not ordinary execution of existing assignments or venture implementation masters.
 ---
 
 # Zed Asana Procedures
 
-Build work a person can understand and complete. Prepare it unassigned, read the actual result back, then assign it. These are agent instructions, not an automated Asana validator.
+Use this skill when creating or repairing a task, subtask, or project, even a small follow-up task. Build work a person can understand and complete. Prepare it unassigned, read the actual result back, then assign it. These are agent instructions, not an automated Asana validator.
+
+For doing an existing assignment, continuing through its subtasks, recording progress, handling an interruption, and checking completion, use `z-asana-agent-control`. An agent does not need this setup skill merely to execute existing work.
 
 ## Route and read what applies
 
@@ -21,8 +23,8 @@ Read only the references needed for the work:
 - [Tasks and subtasks](references/tasks.md): titles, useful breakdowns, visible order, native dividers, ownership, and visibility. Read when creating or repairing tasks.
 - [Brief formats](assets/briefs.md): descriptions, deliverable slots, and handoffs. Read when drafting assignments.
 - [Workflow](references/workflow.md): dates, dependencies, templates, fields, rules, forms, and recurrence.
-- [Delivery](references/delivery.md): work, review, evidence, and completion.
-- [Whole-project continuation](references/continuation.md): required for multi-task projects and queues; handoffs, local problems, reporting failures, and interrupted runs.
+- [Delivery requirements](references/delivery.md): define review, proof, handoff, and completion conditions when setting up work.
+- [Continuation setup](references/continuation.md): define ownership, the work list, and existing handoff and recovery arrangements before releasing multi-step assignments or queues.
 - [OpenClaw operation](references/openclaw.md): runtime discovery, approved tools, and read-back.
 - [Source map](references/sources.md): guide coverage and feature documentation.
 
@@ -67,20 +69,18 @@ After all required checks pass, set each intended main-task and subtask assignee
 
 If a required check fails, correct it or report **Prepared but not released** with the exact gap. Never say ready or verified while required structure, content, access, or assignment remains missing. Record the result on the existing task/project or authorized work record; do not invent another checklist destination.
 
-## Work, review, and finish
+## Define review and completion before release
 
-Follow the delivery reference. Keep the current brief in the description and decisions in comments. Keep the main task with its delivery owner during review. Use a draft/handoff subtask as the review prerequisite; do not make review depend on completion of the main task that itself needs approval.
+Use the delivery requirements reference when writing acceptance checks and review tasks. State what must be saved, checked, and approved before each task can finish. Keep the main task with its delivery owner during review.
 
-When review may request changes, the initial review step finishes when the reviewer posts acceptance or specific corrections. Corrections follow that response; final acceptance follows any corrections. Never make corrections wait for a task whose own finish condition is final approval.
+Use a draft/handoff subtask as the review prerequisite; do not make review wait for completion of the main task that itself needs approval. If the review can request changes, that review step finishes when the reviewer posts acceptance or specific corrections. Corrections follow the response; final acceptance follows corrections.
 
-Continue the next independent authorized item while another awaits review. Hold only the affected work when a local problem or reporting failure occurs, as the continuation reference directs. Finishing one item does not complete a queue.
-
-A test assignment may finish with documented failures and owned corrections if that is its promised result. An assignment promising a working result needs passing acceptance or an explicitly approved exception.
+Make the assignment boundary clear: which main task the worker owns, which action subtasks belong to it, which steps other people own, and what the worker should do next. The worker follows `z-asana-agent-control` to carry out that assignment through completion.
 
 ## Handle failures and report honestly
 
 - After an ambiguous write, inspect current state before retrying. Do not duplicate work or assignments.
 - Stop the affected operation after three failed attempts, or immediately for identity, permission, authorization, or materially expanded scope. Continue only known safe, independent, authorized work; explain any project-wide stop.
 - Preserve the last usable state. Do not delete partial setup or redo completed business work to repair logging.
-- Return exact links, changes, checks, assignment status, remaining gaps, and next action. Distinguish **Ready and assigned**, **Prepared but not released**, and **Business work complete**.
+- Return exact links, changes, checks, assignment status, remaining gaps, and next action. For setup work, distinguish **Ready and assigned** from **Prepared but not released**. Successful setup does not prove the assigned business work is complete.
 - Keep task decisions and proof in Asana. Follow applicable agent-control activity-memory rules when a separate record is required; record technical changes in GitHub and significant operational work in the Technical Journal. Use Mountain Time for timed commitments.
